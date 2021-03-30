@@ -9,7 +9,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - CSS
 
 <h4 align="center"> 
-	:warning: Projeto em desenvolvimento :construction:
+	:computer: Projeto concluído :heavy_check_mark:
 </h4>
 
 ## Autor

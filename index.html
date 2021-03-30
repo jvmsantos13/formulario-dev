@@ -27,10 +27,17 @@
             </div>
         </fieldset>
 
-        <div class="campo">
-            <label for="email"><strong>Email</strong> </label>
-            <input type="email" name="email" id="email" required>
-        </div>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="text" name="email" id="email" required>
+            </div>
+
+            <div class="campo">
+                <label for="telefone"> <strong>Telefone</strong></label>
+                <input type="text" name="telefone" id="telefone" required>
+            </div>
+        </fieldset>
 
         <div class="campo">
             <label><strong>De qual lado da aplicação você desenvolve?</strong></label>
@@ -46,7 +53,7 @@
         </div>
 
         <div>
-            <label for="senioridade"><strong>Senioridade</strong></label>
+            <label for="senioridade"><strong>Qual seu grau de senioridade: </strong></label><br>
             <select id="senioridade">
                 <option value="" selected disabled>Selecione</option>
                 <option value="junior">Junior</option>
@@ -85,7 +92,7 @@
         <div class="campo">
             <br>
             <label><strong>Conte um pouco sobre você e experiências: </strong></label>
-            <textarea row="6" style="width: 26em;" id="experiencia" name="experiencia"></textarea>
+            <textarea row="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
         </div>
 
         <button type="submit" class="botao" onsubmit="">Enviar</button>
