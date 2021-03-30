@@ -4,14 +4,14 @@
 }
 
 #titulo {
-    font-family: sans-serif;
-    color: #380B61;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFFFFF;
     margin-left: 7%;
 }
 
 #subtitulo {
-    font-family: sans-serif;
-    color: #380B61;
+    font-family: 
+    color: #FFFFFF;
     margin-left: 10%;
 }
 
@@ -20,7 +20,8 @@ fieldset {
 }
 
 body {
-    background-color: #F0F8FF;
+    background-image: url(imagens/cod.jpg);
+    background-size: cover;
     font-family: sans-serif;
     font-size: 1em;
     color: #59429d;
